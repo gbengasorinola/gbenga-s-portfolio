@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./assets/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <title>The Future of Digital Advertising</title>
+</head>
+<body>
+
+    <!-- Intro Overlay -->
+    <div id="name-overlay" class="overlay">
+    <div class="overlay-content">
+        <h2>Welcome!</h2>
+        <p>Please enter your name to continue:</p>
+        <input type="text" id="username" placeholder="Your name" oninput="validateName()" />
+        <small id="name-feedback" style="color: red; display: none;"></small>
+        <button onclick="submitName()">Continue</button>
+    </div>
+    </div>
+
+    <div class="nav" onclick="toggleMenu()" aria-label="Toggle menu">
+        <img src="./assets/icon/Menu.svg" alt="Menu" />
+    </div>
+
+    <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#pitch">Pitch</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <hero-section fade-in-on-scroll>
+            <div class="hero-content">
+                <h3>Hello <span id="dynamic-username">User</span></h3>
+                <h1><span class="name-content">I'm Gbenga,</span> AdOps Specialist</h1>
+                <p>Building the future of AI-Powered Digital Advertising in Africa.</p>
+            </div>
+            <div>
+                <!-- Potential image that spins -->
+                <video class="hero-video" src="./assets/video/header-video.mp4" type="video/mp4" autoplay="autoplay" muted playsinline loop></video>
+            </div>
+
+            <!-- A divider -->
+
+        </hero-section>
+
+        <section class="pitch-section fade-in-on-scroll" id="pitch">
+            <div class="pitch-content">
+                <h2>CampaignIQ, The Future of Digital Advertising</h2>
+                <p><strong>CampaignIQ</strong> is an AI-powered, all-in-one platform revolutionizing digital advertising for businesses and agencies. It simplifies campaign creation, management, and optimization across Meta, Google, and Twitter, offering a centralized solution that adapts to both beginners and experts through dual user modes—conversational AI for ease, and advanced input for precision. With intuitive workflows, real-time analytics, and AI-generated creatives, CampaignIQ drastically reduces the time, skill, and cost typically required to run effective digital campaigns.</p>
+                <p>The platform operates on a subscription-based SaaS model, unlocking predictable, high-margin revenue streams. Multiple pricing tiers cater to startups, SMEs, and marketing teams at scale—each offering increasing levels of access and automation. CampaignIQ’s low operating costs, AI-driven efficiencies, and modular feature set allow for strong unit economics and profitable scalability. Additional monetization avenues include upsells, white-labeled versions, and integrations with creative or analytics tools.</p>
+                <p>With digital ad spend surpassing $600 billion globally, CampaignIQ is poised to capture a meaningful share by bridging the gap between powerful advertising tools and everyday marketers. It’s not just a platform—it’s a smart growth engine for the next generation of digital advertisers.</p>
+            </div>
+
+            <!-- A divider -->
+        </section>
+
+        <section class="about-section fade-in-on-scroll" id="about">
+            <div class="about-content">
+                <div class="personal-image-container">
+                    <!-- An image -->
+                     <img class="personal-image" src="./assets/image/IMG_0153.png" alt="">
+                     <h4>Gbenga Sorinola</h4>
+                     <p>AdOps Specialist</p>
+                </div>
+                <div class="personal-bio">
+                    <h4>Bio:</h4>
+                    <p>I’m a digital advertising operations specialist with over 3 years of experience optimizing performance and efficiency across programmatic ecosystems. At Dochase Adx, I serve as Operations Manager, leading cross-functional teams and overseeing strategy, execution, and platform integrations across both the demand and supply sides.</p>
+
+                    <p>My background blends data, infrastructure, and digital strategy. I hold a B.Sc. in Statistics from the Federal University of Agriculture, Abeokuta, completed a Data Analytics Nanodegree from Udacity, and am currently pursuing a Diploma in Cloud Engineering at AltSchool Africa.</p>
+                    <p>I’m passionate about applying cloud technologies and data-driven insights to solve complex challenges in the advertising technology space.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact-section fade-in-on-scroll" id="contact">
+            
+            <hr class="section-divider">
+
+            <div class="form-container">
+                <div class="form-content">
+                    <h3>Let's work together</h3>
+                    <p>Whether you’re looking to collaborate, discuss the project, 
+                        or just say hello, I’m always open to connecting. 
+                        Drop me a message and I’ll get back to you soon.</p>
+                </div>
+                <div class="form-field">
+                    <form action="https://formspree.io/f/xovwdlev" method="POST">
+                        <div>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div>
+                            <input type="text" name="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <textarea name="" id="" placeholder="Type your message here"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                
+        </section>
+    </main>
+</body>
+</html>
