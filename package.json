@@ -1,0 +1,25 @@
+{
+  "name": "gbenga-s-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbengasorinola/gbenga-s-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbengasorinola/gbenga-s-portfolio/issues"
+  },
+  "homepage": "https://github.com/gbengasorinola/gbenga-s-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3"
+  }
+}
