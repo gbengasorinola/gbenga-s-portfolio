@@ -1,7 +1,7 @@
 # Deploying a Personal Web Portfolio on AWS EC2 And Reverse Proxy With NGINX
 
 ## Overview
-The personal portfolio is a web app that include a short pitch on CampaignIQ, an AI-powered, all-in-one platform revolutionizing digital advertising for businesses and agencies. It also include a short bio about me and a contact form that allows users to send me messages directly from the web app. 
+The personal portfolio is a web app that include a short pitch on CampaignIQ, an AI-powered, all-in-one platform revolutionizing digital advertising for businesses and agencies. It also include a short bio about me and a contact form that allows users to send me messages directly from the web app to my gmail mailbox. 
 
 The web app is designed to be personalised. When the web app launches, users are requested to enter their name, and the web app will greet them with a personalized message. If they enter an email address or text that contains numbers, the web app will validate the input and display an error message.
 
