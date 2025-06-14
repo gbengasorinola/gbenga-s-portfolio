@@ -27,7 +27,7 @@ app.post('/send', (req, res) => {
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) return res.status(500).send('Error');
-    res.send('Message sent!');
+    res.redirect('/');
   });
 });
 
