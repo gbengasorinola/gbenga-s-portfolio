@@ -5,7 +5,9 @@ const app = express();
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static('public', {
+  maxAge: '30d' // Cache static assets for 30 days
+}));
 
 app.post('/send', (req, res) => {
   const { name, email, message } = req.body;
