@@ -19,7 +19,7 @@ This guide walks through the step-by-step process I followed to:
 
 ## Screenshots of The Portfolio Page
 1. Welcome page of the portfolio web app:
-![Portfolio Web App](https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.11%20AM.png?raw=true)
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.11%20AM.png?raw=true" alt="Welcome page" width="600"/>
 
 ---
 ## Prerequisites
