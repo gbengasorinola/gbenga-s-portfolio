@@ -21,6 +21,24 @@ This guide walks through the step-by-step process I followed to:
 1. Welcome page of the portfolio web app:
 <img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.11%20AM.png?raw=true" alt="Welcome page" width="600"/>
 
+2. When the user enters their name:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.28%20AM.png?raw=true" alt="Valid input" width="600"/>
+
+3. When the user enters an email address or text that contains numbers:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2011.28.23%20AM.png?raw=true" alt="Invalid input" width="600"/>
+
+4. Hero section of the portfolio web app:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.39%20AM.png?raw=true" alt="Hero section" width="600"/>
+
+5. Pitch section of the portfolio web app:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.53%20AM.png?raw=true" alt="Pitch section" width="600"/>
+
+6. About section of the portfolio web app:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.43.05%20AM.png?raw=true" alt="About section" width="600"/>
+
+7. Contact section of the portfolio web app:
+<img src="https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.43.17%20AM.png?raw=true" alt="Contact section" width="600"/>
+
 ---
 ## Prerequisites
 - An AWS account
