@@ -42,7 +42,9 @@ This guide walks through the step-by-step process I followed to:
 ---
 ## Prerequisites
 - An AWS account
+- Understanding of Linux (Ubuntu) and SSH
 - Basic knowledge of AWS EC2, NGINX, Node.js, HTML, CSS, Javascript, and Git
+- SSH client (e.g., Termius)
 - A custom domain (optional, but recommended for production)
 - A local machine with Node.js and npm installed
 - A code editor (e.g., Visual Studio Code)
