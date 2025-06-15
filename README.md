@@ -7,7 +7,6 @@ The web app is designed to be personalised. When the web app launches, users are
 
 The web app built using Node.js, Express, HTML, JS, and CSS, and it is hosted on an AWS EC2 instance. The web app is reverse proxied using NGINX to handle incoming requests and serve the content securely over HTTPS.
 
-
 This guide walks through the step-by-step process I followed to: 
 - provision a Ubuntu Linux server on AWS EC2
 - developed a web server using Node.js
@@ -16,6 +15,13 @@ This guide walks through the step-by-step process I followed to:
 - reverse proxy my portfolio web app using NGINX
 - secure it with HTTPS.
 
+---
+
+## Screenshots of The Portfolio Page
+1. Welcome page of the portfolio web app:
+![Portfolio Web App](https://github.com/gbengasorinola/gbenga-s-portfolio/blob/main/Screen%20Shot%202025-06-15%20at%2010.42.11%20AM.png?raw=true)
+
+---
 ## Prerequisites
 - An AWS account
 - Basic knowledge of AWS EC2, NGINX, Node.js, and Git
@@ -23,10 +29,12 @@ This guide walks through the step-by-step process I followed to:
 - A local machine with Node.js and npm installed
 - A code editor (e.g., Visual Studio Code)
 
+---
 
 ## TABLE OF CONTENTS
 - [Deploying a Personal Web Portfolio on AWS EC2 And Reverse Proxy With NGINX](#deploying-a-personal-web-portfolio-on-aws-ec2-and-reverse-proxy-with-nginx)
   - [Overview](#overview)
+  - [Screenshots of The Portfolio Page](#screenshots-of-the-portfolio-page)
   - [Prerequisites](#prerequisites)
   - [Provision a Ubuntu Linux Server on AWS EC2](#provision-a-ubuntu-linux-server-on-aws-ec2)
     - [SSH into the EC2 Server](#ssh-into-the-ec2-server)
