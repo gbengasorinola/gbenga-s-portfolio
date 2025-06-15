@@ -51,11 +51,33 @@ This guide walks through the step-by-step process I followed to:
 
 ---
 
+## Project Structure
+```
+gbenga-s-portfolio/
+├── public/
+│   ├── assets/
+│   │   └── index.css
+|   |   └── script.js
+|   |   └── font
+|   |   └── icon
+|   |   └── image
+|   |   └── video
+│   └── index.html
+├── server.js
+├── package.json
+├── package-lock.json
+├── node_modules
+└── README.md
+```
+
+---
+
 ## TABLE OF CONTENTS
 - [Deploying a Personal Web Portfolio on AWS EC2 And Reverse Proxy With NGINX](#deploying-a-personal-web-portfolio-on-aws-ec2-and-reverse-proxy-with-nginx)
   - [Overview](#overview)
   - [Screenshots of The Portfolio Page](#screenshots-of-the-portfolio-page)
   - [Prerequisites](#prerequisites)
+  - [Project Structure](#project-structure)
   - [Provision a Ubuntu Linux Server on AWS EC2](#provision-a-ubuntu-linux-server-on-aws-ec2)
     - [SSH into the EC2 Server](#ssh-into-the-ec2-server)
     - [Update and Upgrade Packages](#update-and-upgrade-packages)
